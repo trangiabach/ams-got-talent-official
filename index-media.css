@@ -1,0 +1,898 @@
+@media only screen and (max-width: 1218px) {
+    .section-1 {
+        top: 15vw;
+    }
+
+    .arrow-down {
+        top: 120%;
+    }
+
+    .end-text {
+        top: 70% !important;
+    }
+
+    .circle-background {
+        top: 130%;
+    }
+
+    .intro-text {
+        font-size: 7rem;
+    }
+
+    .menu-full {
+        font-size: 5vw;
+    }
+
+    .menu-items {
+        line-height: 9vw;
+    }
+
+    .jagged-circle {
+        width: 7rem;
+    }
+
+    .right-hand-circle {
+        top: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 1120px) {
+    .end-text {
+        top: 75% !important;
+    }
+
+    .arrow-down {
+        top: 115%;
+    }
+
+    .intro-text {
+        font-size: 7rem;
+    }
+
+    .right-hand-circle {
+        top: 40%;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .title {
+        font-size: 2.8rem;
+    }
+
+    .menu {
+        font-size: 1.1rem;
+        width: 3.7rem;
+        height: 3.7rem;
+    }
+
+    .to-playground {
+        width: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .intro-text {
+        font-size: 6.5rem;
+        top: 30px;
+    }
+
+    .circle-background {
+        top: 120%;
+    }
+
+    .menu-full {
+        font-size: 5.2vw;
+    }
+
+    .menu-items {
+        line-height: 10vw;
+    }
+
+    .right-hand-circle {
+        top: 37%;
+    }
+
+    .left-hand-circle {
+        top: 20%;
+        left: 19%;
+    }
+
+    .block-1 {
+        width: 2.5vw;
+        height: 9.5vw;
+    }
+
+    .block-2 {
+        width: 2vw;
+        height: 9.5vw;
+        left: 58%;
+    }
+
+}
+
+
+@media only screen and (max-width: 850px) {
+    .end-text {
+        top: 70% !important;
+    }
+
+    .arrow-down {
+        top: 100%;
+    }
+    .circle-background {
+        top: 115%;
+    }
+    .intro-text {
+        font-size: 6rem;
+        top: 70px;
+    }
+
+    .menu-full {
+        font-size: 5.5vw;
+    }
+
+    .menu-items {
+        line-height: 12vw;
+    }
+
+    .right-hand-circle {
+        top: 35%;
+    }
+
+    .jagged-circle {
+        width: 6rem;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    .intro-text {
+        font-size: 5.8rem;
+        top: 80px;
+    }
+
+    .menu-full {
+        font-size: 8vw;
+    }
+
+    .menu-items {
+        line-height: 13vw;
+    }
+
+    .right-hand-circle {
+        top: 33%;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+
+    .end-text {
+        top: 50% !important;
+    }
+
+    .arrow-down {
+        top: 80%;
+    }
+
+    .circle-background {
+        top: 100%;
+    }
+    .intro-text {
+        font-size: 5rem;
+        top: 90px;
+    }
+
+    .menu-full {
+        font-size: 8.8vw;
+    }
+
+    .menu-items {
+        line-height: 16vw;
+    }
+
+    .menu-email {
+        font-size: 1.8rem;
+    }
+
+    #menu-email-svg {
+        width: 5rem;
+    }
+
+    .menu-facebook {
+        font-size: 1.8rem;
+    }
+
+    #menu-facebook-svg {
+        width: 7rem;
+    }
+
+    .jagged-circle {
+        width: 5rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 2.4rem;
+    }
+
+    .menu {
+        font-size: 1rem;
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+
+    .to-playground {
+        width: 1.5rem;
+    }
+
+    .menu-full {
+        font-size: 9.5vw;
+    }
+
+    .menu-items {
+        line-height: 18vw;
+    }
+
+    .right-hand-circle {
+        top: 30%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .intro-text {
+        font-size: 4.3rem;
+        top: 90px;
+    }
+
+    
+    .menu-full {
+        font-size: 10vw;
+    }
+
+    .menu-items {
+        line-height: 18vw;
+    }
+
+    .right-hand-circle {
+        width: 3rem;
+        height: 3rem;
+        top: 30%;
+    }
+
+    .left-hand-circle {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .jagged-circle {
+        width: 4rem;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .intro-text {
+        font-size: 4rem;
+        top: 100px;
+    }
+
+    .menu-full {
+        font-size: 11vw;
+    }
+
+    .menu-items {
+        line-height: 18vw;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .intro-text {
+        font-size: 4.5rem;
+        top: 100px;
+    }
+
+    .menu-full {
+        font-size: 11.5vw;
+    }
+
+    .menu-items {
+        line-height: 20vw;
+    }
+
+    .right-hand-circle {
+        width: 3rem;
+        height: 3rem;
+        top: 28%;
+    }
+}
+
+@media only screen and (max-width: 476px) {
+    .intro-text {
+        font-size: 4.3rem;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .intro-text {
+        font-size: 4.1rem;
+        top: 100px;
+    }
+
+    .menu-full {
+        font-size: 12vw;
+    }
+
+    .menu-items {
+        line-height: 22vw;
+    }
+}
+
+
+@media only screen and (max-width: 426px) {
+    .intro-text {
+        font-size: 4rem;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .intro-text {
+        font-size: 4rem;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .intro-text {
+        font-size: 3.8rem;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .intro-text {
+        font-size: 3.7rem;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .intro-text {
+        font-size: 3.5rem;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .loading-screen {
+        line-height: 36vw;
+    }
+
+
+    .loading-num {
+        font-size: 20vw;
+    }
+
+    .load-quote {
+        font-size: 10vw;
+        line-height: 11vw;
+    }
+    
+    .wrapper {
+        height: 500vh;
+    }
+    .section-1 {
+        top: 20vw;
+        height: 100vh;
+    }
+    .intro-text {
+        font-size:3.4rem;
+        top: 100px;
+    }
+
+    .title {
+        font-size:2.4rem;
+        top: -0.5%;
+    }
+
+    .jagged-circle {
+        width: 20vw;
+        left: 78%;
+        top: 6%;
+    }
+
+    .menu {
+        top: 1.5%;
+        width: 3.3rem;
+        height: 3.3rem;
+        font-size: 1.9rem;
+        border: none;
+        right: 10%;
+    }
+
+    .to-playground {
+        top: 4.5%;
+    }
+
+    .end-text {
+        font-size: 2.5rem;
+        top: 55% !important;
+    }
+
+    .end-text-stroke {
+        top: -125%;
+        width: 20rem;
+        left: 9%;
+    }
+
+    .circle-background {
+        top: 100%;
+    }
+
+    .arrow-down {
+        top: 100%;
+    }
+
+    .right-hand {
+        width: 50vw;
+        right: -20%;
+    }
+
+    .left-hand {
+        top: 25%;
+        width: 50vw;
+        left: -25%;
+        transform: rotate(-60deg);
+    }
+
+    .intro-text-circle {
+        width: 10vw;
+        height: 10vw;
+        left: 33%;
+    }
+
+    .left-hand-circle {
+        width: 10vw;
+        height: 10vw;
+        left: 16%;
+        top: 22%;
+    }
+
+    .right-hand-circle {
+        width: 10vw;
+        height: 10vw;
+        top: 35%;
+
+    }
+
+    .block-1 {
+        width: 4vw;
+        height: 18vw;
+    }
+
+    .block-2 {
+        width: 4vw;
+        height: 18vw;
+        left: 66.5%;
+    }
+    
+    .arrow-down {
+        top: 85%;
+        width: 13vw;
+        left: 45%;
+    }
+
+    .circle-background {
+        height: 150vw;
+    }
+
+    .circle-header-top {
+        width: 85vw;
+        height: 70vw;
+        left: 8%;
+        top: -4%;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+
+    .circle-header-top span {
+        font-size: 4vw;
+        top: 6%;
+        left: 2.5%;
+    }
+
+    .seasons img {
+        top: 100%;
+    }
+    
+    .inner-circle-text {
+        top: 24%;
+        font-size: 7vw;
+    }
+
+    .outer-circle-text {
+        font-size: 9vw;
+        top: 16%;
+    }
+
+    .seasons img {
+        width: 55vw;
+        left: 22%;
+        top: 34.5%;
+    }
+
+    .circle-header-bottom {
+        width: 85vw;
+        height: 70vw;
+        left: 8%;
+        top: 11%;
+        z-index: -1;
+    }
+    
+    .circle-header-bottom span {
+        font-size: 4vw;
+        top: 90%;
+        left: 2.5%;
+    }
+
+    .section-2 {
+        top: 155vw;
+        height: 150vw;
+    }
+
+    .intro-section {
+        font-size: 3.8vw;
+        left: 2%;
+        top: 20%;
+    }
+
+    .event-stroke {
+        border: 1px solid #E4380A;
+    }
+
+    .know-more {
+        font-size: 11vw;
+        top:45%;
+        left: 13%;
+    }
+
+    .hand-interest {
+        width: 35vw;
+    }
+
+    .hand-interest-circle {
+        width: 9vw;
+        height: 9vw;
+    }
+
+    .know-more-header {
+        width: 85vw;
+        height: 70vw;
+        top: 97%;
+        left: 6.2%;
+    }
+
+    .know-more-header span {
+        top: 5%;
+        font-size: 4vw;
+    }
+
+    .pointer-to-more {
+        width: 9vw;
+    }
+
+    .section-3 {
+        top: 140vw;
+    }
+
+    .section-3-nav-header {
+        font-size: 10.5vw;
+        top: -120vw;
+        left: 18vw;
+    }
+
+    .section-3-nav-header-hand {
+        top: -100vw;
+        width: 20vw;
+        left: 37vw;
+    }
+
+    .section-3-rows {
+        top: -60vw;
+        font-size: 7vw;
+        left: -23vw;
+        white-space: pre;
+        line-height: 2.5vw;
+        text-align: center;
+        float: none;
+    }
+
+    .section-3-rows a {
+        z-index: 999 !important;
+    }
+
+    .section-3-svg-large {
+        width: 20vw !important;
+        top: -270% !important;
+        left: 67% !important;
+        z-index: -1 !important;
+    }
+
+    #section-3-history-svg-large {
+        top: -400% !important;
+    }
+
+    #section-3-sponsors-svg-large {
+        width: 20vw !important;
+        top: -450% !important;
+    }
+
+    #section-3-contact-svg-large {
+        width: 35vw !important;
+        top: -550% !important;
+        left: 60% !important;
+    }
+
+    #about-a-href {
+        position: relative;
+        left: -3vw;
+    }
+
+    .section-3-nav-title-circle-yellow {
+        top: -104vw;
+        width: 7vw;
+        height: 7vw;
+        left: 66vw;
+        z-index: -1;
+    }
+
+    .section-3-nav-title-circle-blue {
+        top: -83vw;
+        width: 7vw;
+        height: 7vw;
+        left: 14vw;
+        z-index: -1;
+    }
+
+    .section-3-arrow-to-contact {
+        width: 3.5vw;
+        top: 130vw;
+    }
+
+    .contact-section {
+        height: 200vw;
+    }
+
+    .contact-header {
+        width: 85vw;
+        height: 70vw;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        left: 8%;
+        top: -5%;
+        font-size: 5vw;
+    }
+
+    .contact-header span {
+        top: 3%;
+    }
+
+    .contact-text {
+        font-size: 9.5vw;
+        left: 7.5%;
+    }
+
+    .contact-text-stroke {
+        width: 35vw;
+        z-index: 1;
+        left: 50%;
+    }
+
+    #email-hover {
+        z-index: 101 !important;
+    }
+
+    .agt-circle {
+        top: 40%;
+        left: 16%;
+        width: 70vw;
+        height: 10vw;
+        border: 1px solid #E4380A;
+    }
+
+    .agt-circle span {
+        position: relative;
+        font-size: 6.3vw;
+        top: 4%;
+    }
+
+    .agt-season {
+        top: 54%;
+        left: 32%;
+        width: 35vw;
+        height: 10vw;
+        border: 1px solid #239bba;
+    }
+
+    .agt-season span {
+        position: relative;
+        top: 3%;
+        font-size: 6.8vw;
+    }
+
+    .agt-name {
+        width: 69vw;
+        height: 10vw;
+        top: 47%;
+        left: 16%;
+        border: 1px solid #5c2dbe;
+    }
+
+    .agt-name span {
+        font-size: 6.8vw;
+        position: relative;
+        top: 2%;
+    }
+
+    .contact-href {
+        top: 63%;
+        font-size: 8vw;
+        white-space: pre;
+        line-height: 12vw;
+        left: -15%;
+        text-align: center;
+    }
+
+    .contact-stroke {
+        width: 100vw;
+        left: 2%;
+    }
+
+    .email {
+        position: relative;
+        left: -5.5%;
+    }
+
+    .menu-items {
+        top: 12%;
+    }
+    
+    .menu-item {
+        font-size: 11vw;
+        line-height: 21vw;
+    }
+
+    .pointer-location {
+        font-size: 5vw;
+    }
+
+    .pointer-location-slash {
+        font-family: Ogg;
+        font-size: 12vw;
+    }
+
+    .menu-email {
+        top: 80%;
+        font-size: 8vw;
+    }
+
+    .menu-facebook {
+        top: 80%;
+        font-size: 8vw;
+    }
+
+    #menu-email-svg {
+        top: 20%;
+        width: 18vw;
+
+    }
+
+    #menu-facebook-svg {
+        top: 10%;
+        width: 30vw;
+    }
+   
+}
+
+@media only screen and (max-height: 737px) and (max-width: 668px) {
+    .menu-items {
+        top: 8%;
+    }
+
+    .intro-text {
+        font-size:3.2rem;
+        top: 100px;
+    }
+
+
+    .end-text-stroke {
+        top: -125%;
+        width: 20rem;
+        left: 9%;
+    }
+}
+
+
+
+@media only screen and (max-width: 376px) {
+    .intro-text {
+        font-size:3.4rem;
+        top: 100px;
+    }
+
+    .end-text {
+        top: 67% !important;
+        font-size: 1.8rem;
+    }
+
+    .end-text-stroke {
+        width: 13rem;
+        left: 23%;
+        top: -110%;
+    }
+
+    .arrow-down {
+        top: 80%;
+    }
+
+}
+
+@media only screen and (max-height: 670px) and (max-width: 376px) {
+
+    .menu-items {
+        top: 12%;
+    }
+
+    .menu-email {
+        top: 90%;
+        font-size: 1.5rem;
+    }
+
+    .menu-facebook {
+        top: 90%;
+        font-size: 1.5rem;
+    }
+
+    #menu-email-svg {
+        top: 40%;
+        width: 15vw;
+
+    }
+
+    #menu-facebook-svg {
+        top: 25%;
+        width: 25vw;
+    }
+}
+
+@media only screen and (max-height: 738px) and (max-width: 416px) {
+    .seasons img {
+        top: 32%;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    .intro-text {
+        font-size:3.2rem;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 338px) {
+    .intro-text {
+        font-size:3.1rem;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .intro-text {
+        font-size:3rem;
+        top: 100px;
+    }
+}
+

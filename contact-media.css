@@ -1,0 +1,355 @@
+@media only screen and (max-width: 1180px) {
+    .title {
+        font-size: 2.8rem;
+    }
+
+    .menu {
+        font-size: 1.1rem;
+        width: 3.7rem;
+        height: 3.7rem;
+    }
+
+    .menu-full {
+        font-size: 5vw;
+    }
+
+    .menu-items {
+        line-height: 9vw;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .menu-full {
+        font-size: 5.2vw;
+    }
+
+    .menu-items {
+        line-height: 10vw;
+    }
+
+
+}
+
+@media only screen and (max-width: 850px) {
+    .menu-full {
+        font-size: 5.5vw;
+    }
+
+    .menu-items {
+        line-height: 12vw;
+    }
+    
+
+}
+
+@media only screen and (max-width: 735px) {
+  
+
+}
+
+@media only screen and (max-width: 725px) {
+    .menu-full {
+        font-size: 8vw;
+    }
+
+    .menu-items {
+        line-height: 13vw;
+    }
+   
+
+}
+
+@media only screen and (max-width: 685px) {
+    .menu-full {
+        font-size: 8.8vw;
+    }
+
+    .menu-items {
+        line-height: 16vw;
+    }
+
+    .menu-email {
+        font-size: 1.8rem;
+    }
+
+    #menu-email-svg {
+        width: 5rem;
+    }
+
+    .menu-facebook {
+        font-size: 1.8rem;
+    }
+
+    #menu-facebook-svg {
+        width: 7rem;
+    }
+}
+   
+@media only screen and (max-width: 600px) {
+        .title {
+            font-size: 2.4rem;
+        }
+    
+        .menu {
+            font-size: 1rem;
+            width: 3.3rem;
+            height: 3.3rem;
+        }
+    
+        .menu-full {
+            font-size: 9.5vw;
+        }
+    
+        .menu-items {
+            line-height: 18vw;
+        }
+    
+}
+
+
+@media only screen and (max-width: 560px) {
+    #sponsor-name {
+        font-size: 6rem;
+    }
+
+    .menu-full {
+        font-size: 10vw;
+    }
+
+    .menu-items {
+        line-height: 18vw;
+    }
+
+}
+
+@media only screen and (max-width: 525px) {
+    .menu-full {
+        font-size: 11vw;
+    }
+
+    .menu-items {
+        line-height: 18vw;
+    }
+
+   
+}
+
+@media only screen and (max-width: 500px) {
+    #sponsor-name {
+        font-size: 5.5rem;
+    }
+
+    .menu-full {
+        font-size: 11.5vw;
+    }
+
+    .menu-items {
+        line-height: 20vw;
+    }
+}
+
+
+@media only screen and (max-width: 476px) {
+
+
+}
+
+@media only screen and (max-width: 456px) {
+  
+}
+
+@media only screen and (max-width: 455px) {
+    .menu-full {
+        font-size: 12vw;
+    }
+
+    .menu-items {
+        line-height: 22vw;
+    }
+    
+}
+
+@media only screen and (max-width: 426px) {
+}
+
+@media only screen and (max-width: 415px) {
+    .title {
+        font-size:2.4rem;
+        top: -1%;
+    }
+
+
+     .menu {
+        top: 1.5%;
+        width: 3.3rem;
+        height: 3.3rem;
+        font-size: 1.9rem;
+        border: none;
+        right: 10%;
+    }
+
+    #sponsor-name {
+        font-size: 5rem;
+    }
+
+    .menu-items {
+        top: 12%;
+    }
+    
+    .menu-item {
+        font-size: 11vw;
+        line-height: 21vw;
+    }
+
+    .pointer-location {
+        font-size: 5vw;
+    }
+
+    .pointer-location-slash {
+        font-family: Ogg;
+        font-size: 12vw;
+    }
+
+    .menu-email {
+        top: 80%;
+        font-size: 8vw;
+    }
+
+    .menu-facebook {
+        top: 80%;
+        font-size: 8vw;
+    }
+
+    #menu-email-svg {
+        top: 20%;
+        width: 18vw;
+
+    }
+
+    #menu-facebook-svg {
+        top: 10%;
+        width: 30vw;
+    }
+
+    .contact-section {
+        height: 200vw;
+    }
+
+    .contact-header {
+        width: 85vw;
+        height: 70vw;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        left: 7%;
+        top: 80%;
+        font-size: 8vw;
+    }
+
+    .contact-header span {
+        top: 3%;
+    }
+
+    .contact-text {
+        font-size: 9.5vw;
+        left: 7.5%;
+    }
+
+    .contact-text-stroke {
+        width: 35vw;
+        z-index: 1;
+        left: 50%;
+    }
+
+    #email-hover {
+        z-index: 101 !important;
+    }
+
+    .agt-circle {
+        top: 40%;
+        left: 16%;
+        width: 70vw;
+        height: 10vw;
+        border: 1px solid #E4380A;
+    }
+
+    .agt-circle span {
+        position: relative;
+        font-size: 6.3vw;
+        top: 4%;
+    }
+
+    .agt-season {
+        top: 54%;
+        left: 32%;
+        width: 35vw;
+        height: 10vw;
+        border: 1px solid #239bba;
+    }
+
+    .agt-season span {
+        position: relative;
+        top: 3%;
+        font-size: 6.8vw;
+    }
+
+    .agt-name {
+        width: 69vw;
+        height: 10vw;
+        top: 47%;
+        left: 16%;
+        border: 1px solid #5c2dbe;
+    }
+
+    .agt-name span {
+        font-size: 6.8vw;
+        position: relative;
+        top: 2%;
+    }
+
+    .contact-href {
+        top: 63%;
+        font-size: 8vw;
+        white-space: pre;
+        line-height: 12vw;
+        left: -15%;
+        text-align: center;
+        z-index: 999;
+    }
+
+    .contact-stroke {
+        width: 100vw;
+        left: 2%;
+    }
+
+    .email {
+        position: relative;
+        left: 9%;
+    }
+
+    .facebook {
+        position: relative;
+        left: 11%;
+    }
+
+    .telephone {
+        position: relative;
+        left: 4%;
+    }
+
+    .wrapper {
+        z-index: -2;
+    }
+
+    .contact-section {
+        z-index: 1;
+    }
+
+  
+}
+
+@media only screen and (max-height: 737px) {
+    .menu-items {
+        top: 8%;
+    }
+}
+

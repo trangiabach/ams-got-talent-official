@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title>CONTACT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height = device-height, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="contact-media.css">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.5/vivus.min.js" integrity="sha512-NBLGIjYyAoYAr23l+dmAcUv7TvFj0XrqZoFa4i1o+F2VvF9SrERyMD8BHNnJn1SEGjl1AouBDcCv/q52L3ozBQ==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+</head>
+
+<body>
+    <div class="menu-cursor"></div>
+    <div class = "menu">
+        <a>menu</a>
+    </div>
+    <div class = "trans1"></div>
+    <div class = "is-on1"></div>
+    <h1 class = "title">
+        <a href = "index.html">agt</a>
+    </h1>
+    <div class = "menu-full" id = "menu-targ">
+        <div class="menu-items">
+            <div class="menu-item"><span id = "home-re" href = "index.html">HOME</span></div>
+            <div class="menu-item"><span id = "about-re" href = "about.html">ABOUT</span></div> 
+            <div class="menu-item"><span id = "history-re" href = "history.html">HISTORY</span></div>
+            <div class="menu-item"><span id = "participants-re" href = "participants.html">PARTICIPANTS</span></div>
+            <div class="menu-item"><span id = "sponsors-re" href = "sponsors.html">SPONSORS</span></div>
+            <div class="menu-item"><span id = "contact-re" href = "contact.html">CONTACT</span></div>
+        </div>
+        <div class = "menu-e-f">
+            <div class = "menu-email">
+                <span onclick = "openMail();"><a>email</a></span>
+                <svg class = "menu-svg" id = "menu-email-svg"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 189.45 27.56"><defs><style>.cls-menusvg{fill:none;stroke:black;stroke-miterlimit:10;stroke-width:5px;}</style></defs><title>history-stroke</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-menusvg" d="M0,2.5c48.05.25,95.72,7.8,143.17,15.32l45.87,7.27"/></g></g></svg>
+            </div>
+            <div class = "menu-facebook">
+                <span><a href = "https://www.facebook.com/agtseasonxiii">facebook</a></span>
+                <svg class = "menu-svg" id = "menu-facebook-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169.42 31.01"><defs><style>.cls-menufbsvg{fill:none;stroke:black;stroke-miterlimit:10;stroke-width:3px;}</style></defs><title>about-stroke_1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-menufbsvg" d="M.51,28.57c55.67-11.7,112.17-18.9,168.6-26.09"/></g></g></svg>
+            </div>
+        </div>
+    </div>
+    <div class = "wrapper" data-scroll-container>
+        <div class = "contact-section" id = "contact">
+            <div class = "contact-text">
+               <span>Wanna collaborate?</span> <br>
+               <span>Get in touch with us</span> <br>
+                <span>through <span id = "email-hover" onclick = "openMail();">email!</span></span> <div> <svg class = "contact-text-stroke" id = "pointer-stroke" fill="none" preserveAspectRatio="none" viewBox="0 0 459 315" xmlns="http://www.w3.org/2000/svg" class="position-absolute swoosh" data-v-71038956=""><path d="m37.9827 67.401c62.6553-2.3532 192.4733 14.5084 225.7033 23.4123 33.229 8.9039 171.913 46.4967 172.688 91.1327.775 44.637-98.087 87.949-209.121 77.685s-199.4422-61.075-200.151-105.026c-.7089-43.951 71.6094-82.6545 164.085-94.0772 92.476-11.4227 253.793 31.4917 204.039 118.4652" stroke="#0cb5de" stroke-width="2"  style="stroke-dashoffset: 0; stroke-dasharray: none;"></path></svg></div>
+            </div>
+            <div class = "contact-stroke">
+                <svg id = "contact-stroke-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1725.57 444.83"><defs><style>.cls-cts,.cls-cts{fill:none;stroke:red;stroke-miterlimit:10;}.cls-cts{stroke-width:1.5px;}</style></defs><title>contact-svg-str</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-cts" d="M.07,105c23.87-3.49,48.26-7.14,69.67-18.25s39.69-31.28,41.88-55.31c.24-2.57.26-5.31-1-7.55C108.26,19.8,102.72,19,98,19.4A45.11,45.11,0,0,0,62.25,43.74c-2.38,4.77-3.9,10.22-2.88,15.45,2.56,13,18.23,18.06,31.31,20.4,31.68,5.66,67.23,9.26,93.41-9.47"/><path class="cls-cts" d="M229.48,443.19c45,5.53,92.35-14.95,119.14-51.57,6.74-9.22,12.41-20,11.94-31.41s-9-23.07-20.39-23.59c-7.72-.36-14.81,4.19-20.6,9.31-7.4,6.54-14.06,15.39-13.43,25.25.76,11.78,11.4,20.25,21.58,26.22,47.41,27.73,106.39,34.91,159.06,19.34"/><path class="cls-cts" d="M1452,77.66a133.24,133.24,0,0,0,95.44-46.85c6.27-7.47,12-17.09,9.35-26.49-5.42-4.33-13.42-4.55-19.69-1.58s-10.92,8.69-13.8,15c-11,24.15,3.54,53.81,25.63,68.55s49.57,18.25,75.94,21.38"/><path class="cls-cts" d="M1485.27,332.46c37.27-1.87,73-23.33,92.17-55.35,7.27-12.13,10.58-30.94-1.76-37.85-5.82-3.25-13.22-2.26-19.27.56a36,36,0,0,0-8.69,59.53c29.56,14.59,62.4,24.38,95.25,21.63s65.6-19.56,82-48.19"/></g></g></svg>
+            </div>
+            <div class = "agt-wrapper">
+                <div class = "agt-circle" id = "agt-ci"><span>ams' got talent</span></div>
+                <div class = "agt-season"><span>XIII</span></div>
+                <div class = "agt-name"><span>florescence</span></div>
+            </div>
+            <div class = "contact-href">
+                <a class = "facebook" href = "https://www.facebook.com/agtseasonxiii">facebook</a>
+                <a class = "email" onclick = "openMail();" href = "">email</a>
+                <a class = "telephone" href = "tel:+84975752198">telephone</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src = "contact.js"></script>
