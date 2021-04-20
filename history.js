@@ -179,18 +179,18 @@ historyTL()
 
 function historyHover() {
     const images = {
-        florescence: "florescence.png",
-        flagrantia: "flagrantia.JPG",
-        novaturient: "novatur.JPG",
-        querencia: "querencia.JPG",
-        aquilae: "aquilae.JPG",
-        solstice: "solstice.jpg",
-        nebulae: "nebulae.jpg",
-        iridescence: "iridescence.jpg",
-        seasonV: "season V.jpg",
-        seasonIV: "season IV.jpg",
-        seasonIII: "season III.jpg",
-        seasonII: "season II.jpg",
+        florescence: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/florescence.JPG",
+        flagrantia: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/flagrantia.JPG",
+        novaturient: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/novatur.JPG",
+        querencia: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/querencia.JPG",
+        aquilae: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/aquilae.JPG",
+        solstice: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/solstice.jpg",
+        nebulae: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/nebulae.jpg",
+        iridescence: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/iridescence.jpg",
+        seasonV: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/season V.jpg",
+        seasonIV: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/season IV.jpg",
+        seasonIII: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/season III.jpg",
+        seasonII: "https://raw.githubusercontent.com/trangiabach/ams-got-talent/main/Img/season II.jpg",
         seasonI: ""
     }
     const cursor = document.querySelector(".history-image-cursor")
