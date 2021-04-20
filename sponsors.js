@@ -1,10 +1,3 @@
-window.addEventListener("load", function() {
-    if(window.location == "sponsors.html#contact"){
-        scroll.scrollTo(".contact-section", {
-            offset: 100
-        })
-    }
-})
 
 window.mobileAndTabletCheck = function() {
     let check = false;
@@ -287,7 +280,14 @@ function sponsorsHover() {
     )
 }
 
+function sponsorsClick() {
+    $(".sponsors-child").click(function(){
+        window.location.href = $(this).attr("href");
+    })
+}
+
 sponsorsHover()
+sponsorsClick()
 
 var distort;
 function contactHover() {
