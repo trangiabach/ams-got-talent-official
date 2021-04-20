@@ -678,7 +678,7 @@
         top: 90%;
         left: 75%;
         border: none;
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .XIII {
@@ -700,6 +700,10 @@
         font-size: 2rem;
     }
 
+    .members-div {
+        white-space: nowrap;
+    }
+
     .members ul li {
         margin: -140px 0;
     }
@@ -717,11 +721,11 @@
 
     .nav-to-other-abouts {
         font-size: 1.7rem;
-        top: 165%;
+        top: 175%;
     }
 
     .wrapper {
-        height: 150%;
+        height: 220%;
     }
 
     .pointer-location {
@@ -773,11 +777,11 @@
 
     .nav-to-other-abouts {
         font-size: 1.7rem;
-        top: 160%;
+        top: 190%;
     }
 
     .wrapper {
-        height: 180%;
+        height: 235%;
     }
 
 }
@@ -793,11 +797,11 @@
 
     .nav-to-other-abouts {
         font-size: 1.7rem;
-        top: 190%;
+        top: 220%;
     }
 
     .wrapper {
-        height: 200%;
+        height: 275%;
     }
 
 }

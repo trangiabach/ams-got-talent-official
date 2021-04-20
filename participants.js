@@ -7,25 +7,20 @@ window.mobileAndTabletCheck = function() {
 };
 
 function checkScroll() {
-    if(window.mobileAndTabletCheck()== false) {
-        $("body").css("position", "fixed")
-        console.log(1)
-        var scroll = new LocomotiveScroll({
-            el: document.querySelector('[data-scroll-container]'),
-            smooth: true,
-            smartphone: {
-                smooth: true
-            },
-            tablet: {
-                smooth: true
-            },
-            reloadOnContextChange: true,
-            smoothMobile: 1
-        });
-    }
-    else {
-        $("body").css("position", "")
-    }
+    $("body").css("position", "fixed")
+    console.log(1)
+    var scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true,
+        smartphone: {
+            smooth: true
+        },
+        tablet: {
+            smooth: true
+        },
+        reloadOnContextChange: true,
+        smoothMobile: 1
+    });
 }
 
 checkScroll();
@@ -47,7 +42,7 @@ function openMenu() {
             $(".menu").css("pointer-events", "none")
             setTimeout(function() {$(".menu").css("pointer-events", "all")}, 2500)
             $(".menu-full").addClass("menu-full-background")
-            $(".menu-full").css("z-index","99")
+            $(".menu-full").css("z-index","500")
             var menuTL = gsap.timeline()
             menuTL.from(".menu-items div", 2, {opacity: 0, stagger: 0.15, top: "50px", ease: Power4.easeOut })
             .from(".menu-e-f div",2, {opacity: 0, stagger: 0.15, bottom: "2%", ease: Power4.easeOut },0)

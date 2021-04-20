@@ -1,5 +1,6 @@
 html,  body {
     margin:0;
+    padding: 0;
     background: transparent;
 }
 
@@ -37,6 +38,10 @@ body {
     scrollbar-width: none;/* Firefox */
 }
 
+.wrapper {
+    height: 100%;
+}
+
 .title-menu {
     font-family: Ogg;
     color: #E4380A;
@@ -47,7 +52,7 @@ body {
     letter-spacing: 2.5px;
     z-index: 100;
     top: 1%;
-    z-index: 100 !important;
+    z-index: 501 !important;
     transition: opacity 0.5s ease;
 }
 
@@ -70,7 +75,7 @@ body {
     width: 4.2rem;
     height: 4.2rem;
     text-align: center;
-    z-index: 100 !important;
+    z-index: 501 !important;
 }
 
 .menu:hover {
@@ -170,7 +175,7 @@ body {
     mix-blend-mode: difference;
     transition: all 0.15s ease-out;
     background-color: #E4380A;
-    z-index: 200;
+    z-index: 999;
     width: 1vw;
     height: 1vw;
     transform: scale(0);

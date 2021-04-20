@@ -1,0 +1,305 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+    padding-bottom: 0px;
+    overflow-x: scroll;
+    overflow-y:hidden;
+}
+
+@font-face {
+    font-family: Ogg;
+    src: url(ogg.otf);
+}
+
+@font-face {
+    font-family: Visuelt-bold;
+    src: url(visuelt-bold.ttf);
+}
+
+@font-face {
+    font-family: Visuelt-light;
+    src: url(visuelt-light.ttf);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: white;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;/* Firefox */
+}
+
+.c-scrollbar_thumb {
+    opacity: 0 !important;
+}
+
+.title-menu {
+    font-family: Ogg;
+    color: #E4380A;
+    font-size: 3vw;
+    font-weight: 500;
+    position: fixed;
+    left: 3.5%;
+    letter-spacing: 2.5px;
+    z-index: 100;
+    opacity: 0;
+    top: 1%;
+    z-index: 100 !important;
+    transition: opacity 0.5s ease;
+}
+
+.title-menu a {
+    text-decoration: none;
+    color: #E4380A;
+}
+
+.title {
+    font-family: Ogg;
+    color: #E4380A;
+    font-size: 2.2rem;
+    font-weight: 500;
+    position: fixed;
+    left: 7%;
+    top: 4%;
+    letter-spacing: 2.5px;
+    z-index: 100 !important;
+    z-index: 100;
+    transition: opacity 0.5s ease;
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.title a {
+    text-decoration: none;
+    color: #E4380A;
+}
+
+.menu {
+    font-family: Ogg;
+    color: #E4380A;
+    font-size: 1.2vw;
+    font-weight: 500;
+    position: fixed;
+    right: 4%;
+    z-index: 100;
+    top: 5%;
+    border: 1.2px solid #E4380A;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    z-index: 100 !important;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.menu a {
+    position: relative;
+    top: 24%;
+    color: #E4380A;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    cursor: pointer;
+}
+
+.menu-full {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0ede8;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    font-family: Ogg;
+    font-size: 4.5vw;
+    z-index: -1;
+    top:0;
+    left:0;
+}
+
+.menu-items {
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    line-height: 7vw;
+}
+
+.menu-item {
+    transition: transform 0.2s linear; 
+}
+
+.menu-item span {
+    transition: transform 0.2s linear;
+}
+
+.menu-item span:hover {
+    cursor: pointer;
+}
+
+#home-re {
+    position: relative;
+    top: 6px;
+}
+
+
+.menu-items div {
+    position: relative;
+}
+
+.menu-full-background {
+    opacity: 1;
+}
+
+.menu-email {
+    color:#E4380A;
+    position: absolute;
+    bottom: 5.5%;
+    font-size: 2.2vw;
+    left: 5%;
+}
+
+.menu-email:hover {
+    cursor: pointer;
+}
+
+.menu-facebook:hover {
+    cursor: pointer;
+}
+
+.menu-facebook {
+    color: #E4380A;
+    position: absolute;
+    bottom: 5%;
+    font-size: 2.2vw;
+    right: 5%;
+}
+
+.menu-facebook a {
+    color: #E4380A;
+    text-decoration: none;
+}
+.menu-cursor {
+    pointer-events: none;
+    position: fixed;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: all 0.15s ease-out;
+    background-color: #E4380A;
+    z-index: 200;
+    width: 1vw;
+    height: 1vw;
+    transform: scale(0);
+    top: 50vh;
+    left: 30vw;
+}
+
+.menu-svg {
+    position: absolute;
+    width: 7vw;
+    top: 30%;
+    left: 10%;
+
+}
+
+#menu-email-svg {
+    opacity: 0;
+    width: 6vw;
+    left: -3%;
+    top: 40%;
+}
+
+#menu-facebook-svg {
+    opacity: 0;
+    width: 8.6vw;
+    top: 25%;
+    left: 1%;;
+
+}
+
+.pointer-location {
+    font-family: Visuelt-light;
+    font-size: 1.5vw;
+}
+
+.pointer-location-slash {
+    font-family: Ogg;
+    font-size: 4.5vw;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.section-1{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+}
+
+.history-intro h1 {
+    position: absolute;
+    font-family: Visuelt-light;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    top: 20%;
+    left: 7%;
+    font-weight: 500;
+}
+
+.history-content {
+    position: absolute;
+    top: 33%;
+    left: 7%;
+    width: 85vw;
+    font-family: Ogg;
+    font-size: 2.2rem;
+    line-height: 7rem;
+}
+
+.history-child {
+    display: inline-block;
+    padding-right: 3vw;
+}
+
+.season {
+    color:black;
+    mix-blend-mode: difference;
+    letter-spacing: 3px;
+    transition: all 0.5s ease;
+}
+
+.season:hover {
+    cursor: pointer;
+}
+
+.history-image-cursor {
+    width: 3vw;
+    height: 3vw;
+    transition: all 0.15s ease-out;
+    position: fixed;
+    pointer-events: none;
+}
+
+.history-image-cursor img {
+    opacity: 0;
+    width: 19rem;
+    z-index: 999 !important;
+    transition: opacity 0.5s ease;
+}
+
+.history-slash {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+#season-change {
+    color: #E4380A;
+}

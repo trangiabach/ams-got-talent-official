@@ -1,0 +1,247 @@
+@media only screen and (max-width: 1222px) {
+    .title-menu {
+        font-size: 3rem;
+    }
+
+    .menu {
+        font-size: 1.1rem;
+        width: 3.9rem;
+        height: 3.9rem;
+    }
+
+
+    .menu-full {
+        font-size: 5vw;
+    }
+
+    .menu-items {
+        line-height: 9vw;
+    }
+
+}
+
+@media only screen and (max-width: 1201px) {
+    .title-menu {
+        font-size: 2.9rem;
+    }
+
+    .menu {
+        font-size: 1.1rem;
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 1180px) {
+    .title-menu {
+        font-size: 2.8rem;
+    }
+
+    .menu {
+        font-size: 1.1rem;
+        width: 3.7rem;
+        height: 3.7rem;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .wrapper {
+        height: 120%;
+    }
+
+}
+
+@media only screen and (max-width: 1040px) {
+}
+
+@media only screen and (max-width: 1016px) {
+}
+
+@media only screen and (max-width: 935px) {
+   .wrapper {
+       height: 150%;
+   }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .title {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .menu-full {
+        font-size: 8.8vw;
+    }
+
+    .menu-items {
+        line-height: 16vw;
+    }
+
+    .menu-email {
+        font-size: 1.8rem;
+    }
+
+    #menu-email-svg {
+        width: 5rem;
+    }
+
+    .menu-facebook {
+        font-size: 1.8rem;
+    }
+
+    #menu-facebook-svg {
+        width: 7rem;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 635px) {
+    .wrapper {
+        height: 170%;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 2.4rem;
+    }
+
+    .menu {
+        font-size: 1rem;
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+
+    .menu-full {
+        font-size: 9.5vw;
+    }
+
+    .menu-items {
+        line-height: 18vw;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .wrapper {
+        height: 200%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .wrapper {
+        height: 230%;
+    }
+
+}
+
+@media only screen and (max-width: 532px) {
+    .title {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .menu-full {
+        font-size: 11vw;
+    }
+
+    .menu-items {
+        line-height: 18vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .menu-full {
+        font-size: 11.5vw;
+    }
+
+    .menu-items {
+        line-height: 20vw;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .wrapper {
+        height: 240%;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .menu-full {
+        font-size: 12vw;
+    }
+
+    .menu-items {
+        line-height: 22vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title-menu {
+        font-size: 2.4rem;
+    }
+
+    .menu {
+        font-size: 1rem;
+        width: 3.3rem;
+        height: 3.3rem;
+    }
+}
+
+
+@media only screen and (max-width: 416px) {
+    .title {
+        left: 1.6rem;
+        font-size: 1.8rem;
+    }
+
+    .menu {
+        top: 90%;
+        left: 75%;
+        border: none;
+        font-size: 2rem;
+    }
+
+    .menu-full {
+        font-size: 11.5vw;
+    }
+
+    .menu-items {
+        line-height: 20vw;
+    }
+
+    .pointer-location {
+        font-size: 5vw;
+    }
+
+    .pointer-location-slash {
+        font-family: Ogg;
+        font-size: 12vw;
+    }
+
+    .history-image-cursor img {
+        width: 17rem;
+    }
+
+
+}
