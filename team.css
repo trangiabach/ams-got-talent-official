@@ -1,0 +1,206 @@
+#participant_container{
+    text-align: center;
+}
+
+@font-face{
+    font-family: Ogg;
+    src: url(ogg.otf);
+}
+@font-face {
+    font-family: Visuelt-bold;
+    src: url(visuelt-bold.ttf);
+}
+
+@font-face {
+    font-family: Visuelt-light;
+    src: url(visuelt-light.ttf);
+}
+#participant_name p{
+    font-family: Ogg;
+    font-size: 6.6rem;
+    margin: 0;
+}
+#perf_type{
+    font-family: Visuelt-light;
+    font-size: 1.6rem;
+    color: #E4380A;
+}
+
+#participant_info{
+    display: flex;
+    flex-direction: row;
+    font-family: Visuelt-light;
+    font-size: 1rem;
+    margin-top: 70px;
+    max-width: 800px;
+    max-height: 233px;
+    margin: auto;
+}
+
+#participant_info p{
+    max-width: 500px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#Type{
+    margin-left: 30px;
+    margin-right: 30px;
+} 
+#info{
+    margin-left: 30px;
+    margin-right: 30px;
+} 
+#participant_info a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#participant_web{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+#participant_web:hover{
+    text-decoration: underline;
+}
+body{
+    background-color: transparent;
+}
+
+#niggie{
+  width: 190px;
+}
+.pic-container {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pic-container img{
+  padding-bottom: 10px;
+  max-width: 65%;
+}
+#participant_info span{
+    line-height: 1.5;
+}
+#next_participant_name a{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    font-family: Ogg;
+    color: black;
+    font-size: 3.5rem;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#next_participant p{
+    color: #212529;
+    font-family: Visuelt-light;
+    text-align: center;
+    margin-top: 70px;   
+    margin-bottom: 0;
+}
+#return p{
+    color: #212529;
+    font-family: Visuelt-light;
+    text-align: center;
+    margin-bottom: 0;
+}
+#all_participants a{
+    font-family: Ogg;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 670px) {
+    #participant_info{
+        display: block;
+        margin-left: 8.333333%;
+    }
+    #participant_info p{
+        margin: 0;
+    }
+    #Type{
+        margin-bottom: 30px;
+    }
+    #quote{
+        font-size: 1.6rem;
+    }
+    #next_participant p{
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 500px){
+    #next_participant_name a{
+        font-size: 2.8rem;
+    }
+    #all_participants a{
+        font-size: 1.6rem;
+    }
+}
+@media only screen and (max-width: 483px){
+    #next_participant_name a{
+        font-size: 2.5rem;
+    }
+    #next_participant p{
+        margin-top: 150px;
+    }
+    #all_participants a{
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 400px){
+    #next_participant p{
+        margin-top: 199px;
+    }
+    #next_participant_name a{
+        font-size: 2rem;
+    }
+    #all_participants a{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 393px){
+    #participant_name p{
+        font-size: 4.5rem;
+    }
+    #quote{
+        font-size: 1.4rem;
+    }
+    #next_participant p{
+        margin-top: 209px;
+    }
+}
+@media only screen and (max-width: 355px) {
+    #next_participant p{
+        margin-top: 219px;
+    }
+}
+@media only screen and (max-width: 345px){
+    #next_participant p{
+        margin-top: 230px;
+    }
+    #next_participant_name{
+        font-size: 1.7rem;
+    }
+}
+@media only screen and (max-width: 327px){
+    #next_participant p{
+        margin-top: 260px;
+    }
+}
+@media only screen and (max-width: 323px){
+    #next_participant p{
+        margin-top: 290px;
+    }
+    #next_participant_name{
+        font-size: 1.4rem;
+    }
+}
