@@ -41,7 +41,8 @@ function openMenu() {
             "/about.html" : "#about-re",
             "/participants.html" : "#participants-re",
             "/sponsors.html": "#sponsors-re",
-            "/history.html" : "#history-re"
+            "/history.html" : "#history-re",
+            "/sponsors.html": "#sponsors-re"
         }
         if(hasClick == false) {
             $(path[window.location.pathname]).css("color", "#E4380A")
@@ -58,7 +59,7 @@ function openMenu() {
             .from(".menu-e-f div",2, {opacity: 0, stagger: 0.15, bottom: "2%", ease: Power4.easeOut },0)
             .to(".menu a", 0.4, {opacity:0,ease: Power4.easeOut},0)
             .to(".menu a", 0.4, {opacity: 1, ease: Power4.easeOut}, 0.4)
-            if(window.innerWidth < 416) {
+            if(window.innerWidth < 423) {
                 $(".menu").css({
                     "right": "4%",
                     "top": "3%",
@@ -67,14 +68,16 @@ function openMenu() {
             console.log(window.innerWidth)
             setTimeout(function() {
                 $(".menu a").text("close")
-                if(window.innerWidth < 416) {
-                    $(".menu").css({
+                console.log(window.innerWidth)
+                if(window.innerWidth < 423) {
+                    $(".menu a").css({
                         "right": "4%",
                         "top": "3%",
                     })
                 }
             },400)
             setTimeout(function() {$(".menu a").text("close")},400)
+            console.log("hello")
             hasClick = true
         }
         else if(hasClick == true) {
@@ -88,7 +91,7 @@ function openMenu() {
             .to(".menu a", 0.4, {opacity: 1, ease: Power4.easeOut}, 0.4)
             setTimeout(function() {
                 $(".menu a").text("menu")
-                if(window.innerWidth < 416) {
+                if(window.innerWidth < 423) {
                     $(".menu").css({
                         "left": "75%",
                         "top": "90%",
